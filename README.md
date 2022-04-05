@@ -34,7 +34,7 @@ RIR archived records usually start at various points in time in 2003 except for 
 
 Here is a visualisation of the database showing IPv4 address space utilisation from 2004 to 2020 :
 
-![IPv4 address space](./rir-ipv4-space.png){ height=768px }
+<img src="rir-ipv4-space.png" height="768px">
 
 ## Data layout
 
