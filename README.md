@@ -5,7 +5,7 @@ The database maps IP ranges to country from 2003 to 2020 thus enabling, for inst
 
 ## Details
 
-RIR publish the state of per country allocation and assignment of Internet numbers on a daily basis. Those files are available from the RIR respective ftp servers :
+Each RIR publishes the state of per country allocation and assignment of Internet numbers on a daily basis. Those files are available from the RIR respective ftp servers :
 
 * AfriNIC  : <ftp://ftp.afrinic.net/pub/stats/>
 * APNIC    : <ftp://ftp.apnic.net/pub/stats/apnic/>
@@ -24,13 +24,17 @@ The database records changes in :
 
 So that, in the end, we only have about 460,000 lines instead of more than 949,555,000.
 
-RIR archived records usually start at various points in time in 2003 except for AfriNIC that began operation in 2005 :
+RIR archived records usually start at various points in time in 2003 except for AfriNIC which began operation in 2005 :
 
 * AfriNIC  : 2005-02-18
 * APNIC    : 2003-10-09
 * ARIN     : 2003-11-20
 * LACNIC   : 2004-01-01
 * RIPE NCC : 2003-11-26
+
+Here is a visualisation of the database showing IPv4 address space utilisation from 2004 to 2020 :
+
+![IPv4 address space](./rir-ipv4-space.png){ height=768px }
 
 ## Data layout
 
